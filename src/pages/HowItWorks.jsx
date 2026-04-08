@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, Check, X, Phone, Truck, Users, Clock, DollarSign } from 'lucide-react'
 import { contact } from '../data/serviceAreas'
+import Calculator from '../components/Calculator'
+import TruckRecommender from '../components/TruckRecommender'
 
 export default function HowItWorks() {
   return (
@@ -75,6 +77,34 @@ export default function HowItWorks() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* LIVE CALCULATOR */}
+      <section className="section bg-gradient-to-b from-white to-navy-50/30 border-t border-navy/10">
+        <div className="container max-w-3xl">
+          <div className="text-center mb-10">
+            <div className="eyebrow">Try it live</div>
+            <h2 className="h-section mt-3">Build your own estimate.</h2>
+            <p className="mt-4 text-navy/70">
+              Drag the sliders. The price updates in real time. No tricks, no "starting from."
+            </p>
+          </div>
+          <Calculator variant="light" />
+        </div>
+      </section>
+
+      {/* TRUCK RECOMMENDER */}
+      <section className="section bg-navy-50/30 border-y border-navy/10">
+        <div className="container max-w-4xl">
+          <div className="text-center mb-10">
+            <div className="eyebrow">Free tool</div>
+            <h2 className="h-section mt-3">Don't know what truck to rent?</h2>
+            <p className="mt-4 text-navy/70">
+              Pick your home size — we'll tell you exactly which U-Haul.
+            </p>
+          </div>
+          <TruckRecommender />
         </div>
       </section>
 

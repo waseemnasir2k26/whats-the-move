@@ -2,6 +2,8 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import LiveChat from './components/LiveChat'
+import LiveActivity from './components/LiveActivity'
 import Home from './pages/Home'
 import HowItWorks from './pages/HowItWorks'
 import ServiceAreas from './pages/ServiceAreas'
@@ -31,6 +33,9 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      {/* Global floating widgets */}
+      <LiveChat />
+      <LiveActivity />
     </div>
   )
 }
