@@ -23,6 +23,7 @@ export default function Footer() {
               <li><Link to="/" className="text-white/70 hover:text-white">Home</Link></li>
               <li><Link to="/how-it-works" className="text-white/70 hover:text-white">How It Works</Link></li>
               <li><Link to="/service-areas" className="text-white/70 hover:text-white">Service Areas</Link></li>
+              <li><Link to="/roadmap" className="text-white/70 hover:text-white">Roadmap</Link></li>
               <li><Link to="/faq" className="text-white/70 hover:text-white">FAQ</Link></li>
               <li><Link to="/quote" className="text-white/70 hover:text-white">Get a Quote</Link></li>
               <li><Link to="/contact" className="text-white/70 hover:text-white">Contact</Link></li>

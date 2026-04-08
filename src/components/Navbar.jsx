@@ -8,6 +8,7 @@ const navItems = [
   { to: '/', label: 'Home' },
   { to: '/how-it-works', label: 'How It Works' },
   { to: '/service-areas', label: 'Service Areas' },
+  { to: '/roadmap', label: 'Roadmap' },
   { to: '/faq', label: 'FAQ' },
   { to: '/contact', label: 'Contact' },
 ]

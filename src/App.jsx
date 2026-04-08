@@ -10,6 +10,7 @@ import ServiceAreas from './pages/ServiceAreas'
 import FAQ from './pages/FAQ'
 import Quote from './pages/Quote'
 import Contact from './pages/Contact'
+import Roadmap from './pages/Roadmap'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/quote" element={<Quote />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/roadmap" element={<Roadmap />} />
         </Routes>
       </main>
       <Footer />
