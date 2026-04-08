@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+  <rect width="400" height="100" fill="#00273d"/>
+  <g fill="#ffffff" font-family="'Space Grotesk', 'Inter', sans-serif" font-weight="700">
+    <text x="30" y="48" font-size="30" letter-spacing="-1">WHAT'S THE</text>
+    <text x="30" y="82" font-size="36" letter-spacing="-1">MOVE</text>
+  </g>
+  <g stroke="#ffffff" stroke-width="3" fill="none">
+    <path d="M300 30 L360 30 L370 50 L370 70 L300 70 Z"/>
+    <circle cx="315" cy="70" r="8" fill="#00273d"/>
+    <circle cx="355" cy="70" r="8" fill="#00273d"/>
+    <path d="M315 70 L355 70" stroke-width="1"/>
+  </g>
+</svg>
