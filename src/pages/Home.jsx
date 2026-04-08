@@ -4,7 +4,7 @@ import {
   ArrowRight, Check, Clock, DollarSign, ShieldCheck, Truck,
   Calendar, MapPin, Phone, Star, Wrench, Sofa
 } from 'lucide-react'
-import { serviceAreas, contact, pricing, hours } from '../data/serviceAreas'
+import { serviceAreas, contact } from '../data/serviceAreas'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },

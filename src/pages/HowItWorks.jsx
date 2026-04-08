@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight, Check, X, Phone, Truck, Users, Clock, DollarSign } from 'lucide-react'
-import { contact, pricing } from '../data/serviceAreas'
+import { contact } from '../data/serviceAreas'
 
 export default function HowItWorks() {
   return (

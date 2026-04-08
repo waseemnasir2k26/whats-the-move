@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Check, Phone, MapPin, Calendar, Sofa, ArrowRight, Loader2 } from 'lucide-react'
+import { Check, Phone, MapPin, Sofa, ArrowRight, Loader2 } from 'lucide-react'
 import { contact, serviceAreas } from '../data/serviceAreas'
 
 // Web3Forms — free, no signup required for first 1000 submissions
@@ -13,10 +13,13 @@ export default function Quote() {
 
   async function onSubmit(e) {
     e.preventDefault()
+    // Capture the form ref BEFORE await — React pools synthetic events and
+    // e.currentTarget becomes null after the first await.
+    const form = e.currentTarget
     setStatus('submitting')
     setErrorMsg('')
 
-    const formData = new FormData(e.currentTarget)
+    const formData = new FormData(form)
     formData.append('access_key', WEB3FORMS_KEY)
     formData.append('subject', `New Quote Request — ${formData.get('name') || 'Unknown'}`)
     formData.append('from_name', "What's The Move Website")
@@ -28,8 +31,8 @@ export default function Quote() {
       })
       const data = await res.json()
       if (data.success) {
+        form.reset()
         setStatus('success')
-        e.currentTarget.reset()
         window.scrollTo({ top: 0, behavior: 'smooth' })
       } else {
         throw new Error(data.message || 'Submission failed')
@@ -37,6 +40,7 @@ export default function Quote() {
     } catch (err) {
       setStatus('error')
       setErrorMsg(err.message || 'Something went wrong. Please call us instead.')
+      window.scrollTo({ top: 0, behavior: 'smooth' })
     }
   }
 
@@ -49,7 +53,7 @@ export default function Quote() {
           </div>
           <h1 className="h-section mt-6">Quote request received!</h1>
           <p className="mt-4 text-navy/70 text-lg">
-            Thanks — we got your details. We'll text or call back within the hour during business hours ({contact.serviceArea} time).
+            Thanks — we got your details. We'll text or call back within the hour during business hours (8 AM – 9 PM Eastern, 7 days a week).
           </p>
           <p className="mt-2 text-navy/60 text-sm">
             Need it sooner? Call us directly:
