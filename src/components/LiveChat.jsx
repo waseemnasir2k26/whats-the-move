@@ -23,7 +23,7 @@ const tree = {
     ],
     options: [
       { id: 'calc', label: '🧮 Open the calculator', action: 'scroll-calc' },
-      { id: 'quote', label: '📝 Send me a quote', action: 'goto-quote' },
+      { id: 'contact', label: '📝 Contact the team', action: 'goto-contact' },
       { id: 'human', label: '💬 Talk to a human' },
     ],
   },
@@ -35,7 +35,7 @@ const tree = {
     ],
     options: [
       { id: 'today', label: '📅 Are you free today?' },
-      { id: 'quote', label: '📝 Get a quote', action: 'goto-quote' },
+      { id: 'contact', label: '📝 Contact us', action: 'goto-contact' },
       { id: 'human', label: '💬 Talk to a human' },
     ],
   },
@@ -47,7 +47,7 @@ const tree = {
     ],
     options: [
       { id: 'human', label: '📞 Yes — call or text me' },
-      { id: 'quote', label: '📝 Send the request', action: 'goto-quote' },
+      { id: 'contact', label: '📝 Get in touch', action: 'goto-contact' },
     ],
   },
   how: {
@@ -60,7 +60,7 @@ const tree = {
     ],
     options: [
       { id: 'cost', label: '💰 What\'s the cost?' },
-      { id: 'quote', label: '📝 Get a real quote', action: 'goto-quote' },
+      { id: 'contact', label: '📝 Contact us', action: 'goto-contact' },
       { id: 'human', label: '💬 Talk to a human' },
     ],
   },
@@ -70,7 +70,7 @@ const tree = {
       "You only pay when the move is finished. We accept Venmo, Zelle, Cash App, cash, or card.",
     ],
     options: [
-      { id: 'quote', label: '📝 Sounds good — get me a quote', action: 'goto-quote' },
+      { id: 'contact', label: '📝 Sounds good — contact us', action: 'goto-contact' },
       { id: 'human', label: '💬 Talk to a human' },
     ],
   },
@@ -82,7 +82,7 @@ const tree = {
     ],
     options: [
       { id: 'call', label: `📞 Call ${contact.phone}`, action: 'call' },
-      { id: 'quote', label: '📝 Or send your details', action: 'goto-quote' },
+      { id: 'contact', label: '📝 Or send us a message', action: 'goto-contact' },
       { id: 'restart', label: '↩️ Back to start' },
     ],
   },
@@ -137,10 +137,10 @@ export default function LiveChat() {
       window.location.href = contact.phoneHref
       return
     }
-    if (opt.action === 'goto-quote') {
+    if (opt.action === 'goto-contact') {
       setTimeout(() => {
         setOpen(false)
-        window.location.href = '/quote'
+        window.location.href = '/contact'
       }, 500)
       return
     }
@@ -239,11 +239,11 @@ export default function LiveChat() {
                   <Phone size={12} /> Call
                 </a>
                 <Link
-                  to="/quote"
+                  to="/contact"
                   onClick={() => setOpen(false)}
                   className="flex-1 inline-flex items-center justify-center gap-1.5 bg-navy hover:bg-navy-700 text-white text-xs font-bold py-2.5 rounded-lg transition-colors"
                 >
-                  Get quote <ArrowRight size={12} />
+                  Contact us <ArrowRight size={12} />
                 </Link>
               </div>
             </div>

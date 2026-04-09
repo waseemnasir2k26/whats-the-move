@@ -59,9 +59,9 @@ export default function Contact() {
           </div>
 
           <div className="mt-16 text-center">
-            <Link to="/quote" className="btn-primary">
-              Get my free quote <ArrowRight size={16} />
-            </Link>
+            <a href={contact.phoneHref} className="btn-primary">
+              <Phone size={16} /> Call us now
+            </a>
           </div>
         </div>
       </section>

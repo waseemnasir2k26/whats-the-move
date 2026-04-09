@@ -104,8 +104,8 @@ export default function FAQ() {
             <a href={contact.phoneHref} className="btn-primary">
               <Phone size={16} /> {contact.phone}
             </a>
-            <Link to="/quote" className="btn-outline">
-              Get a quote <ArrowRight size={16} />
+            <Link to="/contact" className="btn-outline">
+              Contact us <ArrowRight size={16} />
             </Link>
           </div>
         </div>

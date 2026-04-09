@@ -53,8 +53,8 @@ export default function Home() {
               </p>
 
               <div className="mt-10 flex flex-col sm:flex-row gap-3">
-                <Link to="/quote" className="btn-glow !text-base !py-4 !px-7 bg-emerald-500 hover:bg-emerald-600">
-                  Get my quote in 60 sec <ArrowRight size={20} />
+                <Link to="/contact" className="btn-glow !text-base !py-4 !px-7 bg-emerald-500 hover:bg-emerald-600">
+                  Contact us today <ArrowRight size={20} />
                 </Link>
                 <a href={contact.phoneHref} className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white font-semibold px-7 py-4 rounded-md hover:bg-white/10 transition-all hover:-translate-y-0.5">
                   <Phone size={18} /> {contact.phone}
@@ -253,7 +253,7 @@ export default function Home() {
 
           <div className="mt-14 grid md:grid-cols-3 gap-8">
             {[
-              { step: '01', title: 'Tell us about your move', desc: 'Quote form or call. We\'ll ask about pickup, drop-off, big items, stairs, and timing.' },
+              { step: '01', title: 'Tell us about your move', desc: 'Call, text, or email. We\'ll ask about pickup, drop-off, big items, stairs, and timing.' },
               { step: '02', title: 'We assign the right crew', desc: 'Based on your move size we send 2, 3, or 4 movers. You only pay for the time we work.' },
               { step: '03', title: 'We show up and get it done', desc: 'On time, in uniform. We protect floors, wrap furniture, load efficiently, and double-check everything.' },
             ].map(({ step, title, desc }) => (
@@ -354,8 +354,8 @@ export default function Home() {
             60 seconds. Zero deposit. Real humans answer the phone.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
-            <Link to="/quote" className="btn-glow bg-emerald-500 hover:bg-emerald-600 !text-base !py-4 !px-7">
-              Get my free quote <ArrowRight size={20} />
+            <Link to="/contact" className="btn-glow bg-emerald-500 hover:bg-emerald-600 !text-base !py-4 !px-7">
+              Get in touch <ArrowRight size={20} />
             </Link>
             <a href={contact.phoneHref} className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white font-semibold px-7 py-4 rounded-md hover:bg-white/10 transition-all">
               <Phone size={18} /> {contact.phone}

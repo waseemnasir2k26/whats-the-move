@@ -181,7 +181,7 @@ export default function HowItWorks() {
                 num: '01',
                 icon: Phone,
                 title: 'Reach out',
-                desc: 'Call, text, or fill out the quote form. Tell us pickup and drop-off addresses, the date, big items, stairs, and floor count.',
+                desc: 'Call, text, or email us. Tell us pickup and drop-off addresses, the date, big items, stairs, and floor count.',
               },
               {
                 num: '02',
@@ -231,8 +231,8 @@ export default function HowItWorks() {
             Takes 60 seconds. We'll text or call back within the hour.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
-            <Link to="/quote" className="btn-white">
-              Get my quote <ArrowRight size={16} />
+            <Link to="/contact" className="btn-white">
+              Contact us <ArrowRight size={16} />
             </Link>
             <a href={contact.phoneHref} className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white font-semibold px-6 py-3 rounded-md hover:bg-white/10 transition-colors">
               <Phone size={16} /> {contact.phone}

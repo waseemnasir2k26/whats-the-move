@@ -684,7 +684,7 @@ export default function Roadmap() {
             <a href={contact.phoneHref} className="btn-white">
               <Phone size={16} /> Call {contact.phone}
             </a>
-            <Link to="/quote" className="inline-flex items-center gap-2 border-2 border-white/30 text-white font-semibold px-6 py-3 rounded-md hover:bg-white/10 transition-colors">
+            <Link to="/contact" className="inline-flex items-center gap-2 border-2 border-white/30 text-white font-semibold px-6 py-3 rounded-md hover:bg-white/10 transition-colors">
               Start the build <ArrowRight size={16} />
             </Link>
           </div>

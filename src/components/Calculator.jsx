@@ -155,7 +155,7 @@ export default function Calculator({ variant = 'light' }) {
           </div>
 
           <Link
-            to="/quote"
+            to="/contact"
             className={`mt-5 w-full inline-flex items-center justify-center gap-2 font-bold px-6 py-4 rounded-xl transition-all hover:-translate-y-0.5 ${
               isDark
                 ? 'bg-navy text-white hover:bg-navy-700 shadow-lg shadow-navy/30'

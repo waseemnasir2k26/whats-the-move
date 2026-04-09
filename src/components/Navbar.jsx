@@ -8,7 +8,6 @@ const navItems = [
   { to: '/', label: 'Home' },
   { to: '/how-it-works', label: 'How It Works' },
   { to: '/service-areas', label: 'Service Areas' },
-  { to: '/roadmap', label: 'Roadmap' },
   { to: '/faq', label: 'FAQ' },
   { to: '/contact', label: 'Contact' },
 ]
@@ -43,8 +42,8 @@ export default function Navbar() {
             <Phone size={16} />
             {contact.phone}
           </a>
-          <Link to="/quote" className="btn-primary !py-2.5 !px-5 text-sm">
-            Get Free Quote
+          <Link to="/contact" className="btn-primary !py-2.5 !px-5 text-sm">
+            Contact Us
           </Link>
         </div>
 
@@ -78,8 +77,8 @@ export default function Navbar() {
               <Phone size={18} />
               {contact.phone}
             </a>
-            <Link to="/quote" onClick={() => setOpen(false)} className="btn-primary mt-2">
-              Get Free Quote
+            <Link to="/contact" onClick={() => setOpen(false)} className="btn-primary mt-2">
+              Contact Us
             </Link>
           </div>
         </div>

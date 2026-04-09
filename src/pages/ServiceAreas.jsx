@@ -17,8 +17,8 @@ export default function ServiceAreas() {
               From beachfront condos on Isle of Palms to historic walk-ups downtown to new builds in Nexton — we've moved them all. Same flat $50/hr per mover, no matter where you are.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
-              <Link to="/quote" className="btn-white">
-                Get a quote in your area <ArrowRight size={16} />
+              <Link to="/contact" className="btn-white">
+                Contact us about your area <ArrowRight size={16} />
               </Link>
               <a href={contact.phoneHref} className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white font-semibold px-6 py-3 rounded-md hover:bg-white/10 transition-colors">
                 <Phone size={16} /> {contact.phone}
@@ -64,8 +64,8 @@ export default function ServiceAreas() {
             <a href={contact.phoneHref} className="btn-primary">
               <Phone size={16} /> Call {contact.phone}
             </a>
-            <Link to="/quote" className="btn-outline">
-              Send us your address
+            <Link to="/contact" className="btn-outline">
+              Send us a message
             </Link>
           </div>
         </div>
