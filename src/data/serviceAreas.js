@@ -93,9 +93,9 @@ export const hours = {
 }
 
 export const contact = {
-  phone: '(843) 555-0100',   // Replace with real number
-  phoneHref: 'tel:+18435550100',
-  email: 'hello@whatsthemovecharleston.com', // Replace
+  phone: '(843) 471-0287',
+  phoneHref: 'tel:+18434710287',
+  email: 'info@whatsthemove843.com',
   serviceArea: 'Charleston County, South Carolina',
 }
 

@@ -6,7 +6,7 @@ import { contact } from '../data/serviceAreas'
 const faqs = [
   {
     q: 'What does "labor-only" actually mean?',
-    a: 'It means we provide the manpower for your move — loading, unloading, lifting, carrying, disassembling, reassembling — but we don\'t provide the truck. You rent your own (U-Haul, Penske, Budget, Home Depot, etc.) and we handle everything else. By cutting out the truck, the gas, and the franchise overhead, you save 50–70% versus a traditional moving company.',
+    a: 'It means we provide the manpower for your move — loading, unloading, lifting, and carrying — but we don\'t provide the truck. You rent your own (U-Haul, Penske, Budget, Home Depot, etc.) and we handle everything else. By cutting out the truck, the gas, and the franchise overhead, you save 50–70% versus a traditional moving company.',
   },
   {
     q: 'How much does it cost?',
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: 'How far in advance do I need to book?',
-    a: 'Same-day and next-day moves are usually possible. Book ahead if you can — especially on weekends or end-of-month — but we\'ll always try to fit you in.',
+    a: 'Same-day moves aren\'t possible, but next-day moves are usually available. Book ahead if you can — especially on weekends or end-of-month — but we\'ll always try to fit you in.',
   },
   {
     q: 'Are you insured?',
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: 'Do you bring tools, dollies, and blankets?',
-    a: 'We bring basic moving tools, straps, and dollies. If you\'d like furniture pads or shrink wrap, those usually come with your truck rental — we\'ll let you know what to grab. Or we can supply them on request.',
+    a: 'Yes — we provide basic moving tools, moving blankets, and shrink wrap. If you need extra blankets, you can usually get them with your truck rental.',
   },
   {
     q: 'What hours are you available?',

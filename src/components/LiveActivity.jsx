@@ -5,7 +5,7 @@ const activities = [
   { name: 'Sarah L.',  area: 'Mt Pleasant',   action: 'just booked a 2-mover move' },
   { name: 'Mike R.',   area: 'West Ashley',   action: 'got a quote' },
   { name: 'Jenna K.',  area: 'Downtown',      action: 'booked a 3-mover crew' },
-  { name: 'David T.',  area: 'James Island',  action: 'requested a same-day move' },
+  { name: 'David T.',  area: 'James Island',  action: 'requested a next-day move' },
   { name: 'Emily H.',  area: 'North Chas.',   action: 'just booked an apartment move' },
   { name: 'Carlos M.', area: 'Summerville',   action: 'requested a quote' },
   { name: 'Tiffany W.',area: "John's Island", action: 'booked an in-home furniture move' },

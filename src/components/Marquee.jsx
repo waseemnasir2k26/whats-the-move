@@ -5,7 +5,7 @@ const items = [
   { icon: Zap, text: '$50/hr per mover' },
   { icon: Check, text: 'Zero deposit · ever' },
   { icon: Star, text: '7 days a week · 8a–9p' },
-  { icon: Zap, text: 'Same-day moves available' },
+  { icon: Zap, text: 'Next-day moves available' },
   { icon: Check, text: 'Insured & background-checked' },
   { icon: Star, text: 'Save 50–70% vs full-service' },
   { icon: Zap, text: 'No travel fees in Charleston County' },

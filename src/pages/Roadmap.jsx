@@ -104,9 +104,9 @@ const improvements = [
     title: 'Replace placeholder contact info',
     impact: 'HIGH', effort: 'LOW', priority: 'P0',
     icon: Phone,
-    problem: 'Every CTA currently points at (843) 555-0100 — a dummy number. Until this is fixed, the site literally cannot generate a lead.',
-    solution: 'Swap in real phone + email + ideally a Twilio/OpenPhone SMS line. Update serviceAreas.js, Schema.org JSON-LD, and every tel: link in one pass.',
-    lift: 'Obvious — turns on the entire lead channel. 30-minute fix, week 1.',
+    problem: 'Real contact info is now live — (843) 471-0287 and info@whatsthemove843.com. This item is complete.',
+    solution: 'Done — phone, email, and Schema.org JSON-LD all updated site-wide.',
+    lift: 'Lead channel is now active. Consider adding a Twilio/OpenPhone SMS line for text-to-quote.',
   },
   {
     num: 4,

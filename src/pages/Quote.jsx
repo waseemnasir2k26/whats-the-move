@@ -116,7 +116,7 @@ export default function Quote() {
                     '$50/hr per mover',
                     'No deposits — ever',
                     'Insured & background-checked',
-                    'Same-day available',
+                    'Next-day available',
                     'All Charleston County',
                   ].map((item) => (
                     <li key={item} className="flex items-center gap-2">
@@ -137,7 +137,7 @@ export default function Quote() {
                 <h2 className="text-xl font-bold flex items-center gap-2"><Phone size={20} /> Your contact info</h2>
                 <div className="mt-5 grid sm:grid-cols-2 gap-4">
                   <Field name="name" label="Full name *" required placeholder="Jane Smith" />
-                  <Field name="phone" label="Phone *" required type="tel" placeholder="(843) 555-0100" />
+                  <Field name="phone" label="Phone *" required type="tel" placeholder="(843) 000-0000" />
                   <Field name="email" label="Email *" required type="email" placeholder="you@email.com" wrapperClass="sm:col-span-2" />
                 </div>
               </div>

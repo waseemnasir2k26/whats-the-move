@@ -25,7 +25,7 @@ export default function Contact() {
             <div className="card">
               <Phone size={28} className="text-navy" />
               <h3 className="mt-4 text-xl font-bold">Call or text</h3>
-              <p className="mt-2 text-navy/70 text-sm">Fastest way to reach us. Same-day moves welcome.</p>
+              <p className="mt-2 text-navy/70 text-sm">Fastest way to reach us. Next-day moves usually available.</p>
               <a href={contact.phoneHref} className="mt-4 inline-block text-2xl font-bold text-navy hover:underline">
                 {contact.phone}
               </a>

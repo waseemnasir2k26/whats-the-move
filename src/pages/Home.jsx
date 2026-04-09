@@ -182,12 +182,12 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Disassembly */}
+            {/* Packing Help */}
             <div className="md:col-span-5 bg-navy-50 border border-navy/10 text-navy rounded-3xl p-8 lift-card">
               <Wrench size={28} className="text-navy" />
-              <h3 className="mt-4 text-2xl font-bold">Disassembly</h3>
+              <h3 className="mt-4 text-2xl font-bold">Packing & wrapping</h3>
               <p className="mt-2 text-navy/70 text-sm leading-relaxed">
-                Beds, tables, IKEA closets — apart on one end, back together on the other. Tools included.
+                Moving blankets, shrink wrap, and basic tools included. We protect your furniture so it arrives in one piece.
               </p>
             </div>
 

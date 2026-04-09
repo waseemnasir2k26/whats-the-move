@@ -154,7 +154,7 @@ export default function HowItWorks() {
                   'No franchise, no markup',
                   'Zero deposit',
                   'Flat $50/hr — no surprises',
-                  'Same-day & next-day available',
+                  'Next-day moves usually available',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2 text-white/90">
                     <Check size={18} className="text-emerald-400 flex-shrink-0 mt-0.5" />

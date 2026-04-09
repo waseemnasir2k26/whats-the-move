@@ -42,7 +42,7 @@ const tree = {
   today: {
     bot: [
       "Probably yes — we work 7 days a week, 8 AM to 9 PM.",
-      "Same-day moves are usually possible if you book before noon. After noon, we'll fit you in the next day.",
+      "Same-day moves aren't possible, but next-day moves are usually available. Book ahead when you can and we'll get you on the schedule.",
       "Want me to check availability with the team?",
     ],
     options: [
