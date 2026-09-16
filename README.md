@@ -2,6 +2,10 @@
 
 Marketing site for **What's The Move**, a labor-only moving company serving Charleston County, SC. $50/hr per mover, no deposit, 7 days a week.
 
+## Status
+
+Last reviewed: September 2026 · release v2026.09
+
 ## Stack
 
 - **React 18** + **Vite 5**
