@@ -4,7 +4,7 @@ Marketing site for **What's The Move**, a labor-only moving company serving Char
 
 ## Status
 
-Last reviewed: September 2026 · release v2026.09
+Last reviewed: October 2026 · release v2026.10
 
 ## Stack
 
@@ -91,3 +91,11 @@ All defined as `navy.*` shades in `tailwind.config.js`.
 - [ ] Calendly embed for booking sync
 - [ ] Submit sitemap to Google Search Console
 - [ ] Create Google Business Profile
+
+## Work with SkynetLabs
+
+Built by [Waseem Nasir](https://www.skynetjoe.com/?utm_source=github&utm_medium=readme&utm_campaign=whats-the-move) at SkynetLabs — n8n + AI automation for small businesses.
+
+- Hire on Fiverr: https://www.fiverr.com/agencies/skynetjoellc
+- Hire on Upwork: https://www.upwork.com/freelancers/muhammadwaseemnasir
+- Book a free call: https://calendly.com/skynetlabs/schedule-a-free-consultation

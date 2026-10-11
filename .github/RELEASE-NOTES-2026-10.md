@@ -1,0 +1,4 @@
+- whats-the-move is a public React 18 + Vite + Tailwind marketing site for a labor-only moving company in Charleston County, SC, deployed via Vercel.
+- Current state: last functional commit was 2026-04-10 (quote form removed, CTAs point to the contact page); no code changes since.
+- Reviewed October 2026: package.json minor-bumped to 1.2.0. README links checked: web3forms.com returned 403 to a scripted request (bot block, not confirmed dead); vercel.com/new returned 200; `calendly.com/your-username/30min` is a documented placeholder.
+- Known gaps: README is out of date with the code (still documents a /quote page and Web3Forms flow removed in April, omits /roadmap); no LICENSE; no tests.
